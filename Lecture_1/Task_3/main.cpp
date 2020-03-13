@@ -4,37 +4,37 @@ using namespace std;
 
 int main()
 {
-    int a;
-    int b;
-    int c;
+    int salary1;
+    int salary2;
+    int salary3;
     cout << "Vvedite zarplatu:";
-    cin >> a;
+    cin >> salary1;
     cout << "Vvedite zarplatu:";
-    cin >> b;
+    cin >> salary2;
     cout << "Vvedite zarplatu:";
-    cin >> c;
-    if (a > c and b > c and a > b)
+    cin >> salary3;
+    if (salary1 > salary3 and salary2 > salary3 and salary1 > salary2)
     {
-        cout << a - b;
+        cout << salary1 - salary3;
     }
-    if (a > c and b > c and b > a)
+    if (salary1 > salary3 and salary2 > salary3 and salary2 > salary1)
     {
-        cout << b - a;
+        cout << salary2 - salary3;
     }
-    if (a > c and c > b and a > c)
+    if (salary2 > salary3 and salary3 > salary1 and salary2 > salary3)
     {
-        cout << a - c;
+        cout << salary2 - salary1;
     }
-    if (a > b and c > b and c > a)
+    if (salary1 > salary2 and salary3 > salary2 and salary1 > salary2)
     {
-        cout << c - a;
+        cout << salary1 - salary2;
     }
-    if (c > a and b > a and c > b)
+    if (salary3 > salary2 and salary1 > salary2 and salary3 > salary1)
     {
-        cout << c - b;
+        cout << salary3 - salary2;
     }
-    if (c > a and b > a and b > c)
+    if (salary3 > salary1 and salary2 > salary1 and salary3 > salary2)
     {
-        cout << b - c;
+        cout << salary3 - salary1;
     }
 }

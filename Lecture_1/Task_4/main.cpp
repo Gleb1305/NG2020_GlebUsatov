@@ -4,35 +4,35 @@ using namespace std;
 
 int main()
 {
-    int a;
-    int b;
-    int c;
+    int numbA;
+    int numbB;
+    int numbC;
     cout << "vvedite pervoe chislo";
     cout << endl;
-    cin >> a;
+    cin >> numbA;
     cout << "vvedite vtoroe chislo";
     cout << endl;
-    cin >> b;
+    cin >> numbB;
     cout << "vvedite tretee chislo";
     cout << endl;
     cin >> c;
-    if (c == 1)
+    if (numbC == 1)
     {
-        cout << a + b;
+        cout << numbA + numbB;
     }
-    if (c == 2)
+    if (numbC == 2)
     {
-        cout << a - b;
+        cout << numbA - numbB;
     }
-    if (c == 3)
+    if (numbC == 3)
     {
-        cout << a * b;
+        cout << numbA * numbB;
     }
-    if (c == 4)
+    if (numbC == 4)
     {
-        cout << a / b;
+        cout << numbA / numbB;
     }
-    if (c > 4)
+    if (numbC > 4)
     {
         cout << "eror";
     }
