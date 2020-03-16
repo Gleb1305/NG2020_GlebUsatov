@@ -4,35 +4,32 @@ using namespace std;
 
 int main()
 {
-    int numbA;
-    int numbB;
-    int numbC;
-    cout << "vvedite pervoe chislo";
-    cout << endl;
-    cin >> numbA;
-    cout << "vvedite vtoroe chislo";
-    cout << endl;
-    cin >> numbB;
-    cout << "vvedite tretee chislo";
-    cout << endl;
-    cin >> c;
-    if (numbC == 1)
+    int num1;
+    int num2;
+    int num3;
+    cout << "Vvedite pervoe chislo: ";
+    cin >> num1;
+    cout << "Vvedite vtoroe chislo: ";
+    cin >> num2;
+    cout << "Vvedite tretee chislo: ";
+    cin >> num3;
+    if (num3 == 1)
     {
-        cout << numbA + numbB;
+        cout << num1 + num2;
     }
-    if (numbC == 2)
+    if (num3 == 2)
     {
-        cout << numbA - numbB;
+        cout << num1 - num2;
     }
-    if (numbC == 3)
+    if (num3 == 3)
     {
-        cout << numbA * numbB;
+        cout << num1 * num2;
     }
-    if (numbC == 4)
+    if (num3 == 4)
     {
-        cout << numbA / numbB;
+        cout << num1 / num2;
     }
-    if (numbC > 4)
+    if (num3 > 4)
     {
         cout << "eror";
     }
