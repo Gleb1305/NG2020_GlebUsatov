@@ -29,7 +29,7 @@ int main()
     {
         cout << num1 / num2;
     }
-    if (num3 > 4)
+    if (num3 > 4 or num3< 0)
     {
         cout << "eror";
     }
