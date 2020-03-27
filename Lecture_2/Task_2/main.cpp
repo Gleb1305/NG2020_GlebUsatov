@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
     int i = 0 ;
-    int n;
+    int num;
     cout << "Enter number: ";
-    cin >> n;
-    while (i <= n)
+    cin >> num;
+    while (i <= num)
     {
         cout << i;
         cout << " ";
