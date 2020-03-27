@@ -15,7 +15,6 @@ int main()
         for (int actualStart = 0; actualStart < lineNum * 2 - 1; actualStart++)
             cout << "*";
         cout << endl;
-        ;
     }
     for (int spaseAmount = 1; spaseAmount < size; spaseAmount++)
         cout << " ";
