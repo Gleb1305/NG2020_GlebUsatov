@@ -11,7 +11,7 @@ int main()
     while (i <= num)
     {
         cout << i;
-        cout << " ";
+        cout << ",";
         i++;
     }
 }
